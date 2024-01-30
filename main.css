@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+body{
+    background-image: linear-gradient(to bottom right, rgba(80, 206, 21, 0.233), rgba(80, 206, 21, 0.53));
+    padding-top: 100px;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+header img{
+    height: 50px;
+    margin-right: 16px;
+}
+header h1{
+    font-size:  40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+form button {
+    background-color: #009432;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px 40px;
+    transition: 0.05s;
+    border-radius: 3px;
+}
+form button:hover{
+    scale: 1.02;
+    background-color: #037027;
+    color: #dedede;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size:  22px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+table td img{
+    height: 30px;
+}
+
+
+
+
+
